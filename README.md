@@ -62,61 +62,62 @@ Copy code
 
 ---
 
+## ▶ Run Locally
+
 ### 🟦 Start Backend (FastAPI)
 ```bash
 uvicorn fastapi_app.main:app --reload
 ```
-## 📌 Local API documentation:
+
+###📌 Local API documentation:
 ```
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
 ```
-## 🟩 Start Frontend (Streamlit)
-```
+
+---
+
+### 🟩 Start Frontend (Streamlit)
+```bash
 streamlit run streamlit_app/app.py
 ```
+
 ---
 
 ## 🚀 Deployment Roadmap
-Task	Status
-Deploy FastAPI on Render	⏳ pending
-Deploy Streamlit Web App	⏳ pending
-Add CI/CD with GitHub Actions	⏳ pending
+
+| Task | Status |
+|------|--------|
+| Deploy FastAPI on Render | ⏳ pending |
+| Deploy Streamlit Web App | ⏳ pending |
+| Add CI/CD with GitHub Actions | ⏳ pending |
 
 ---
 
 ## 🌍 Real-World Use Cases
-Customer review sentiment analysis
 
-Social media emotion detection
-
-Brand reputation tracking
-
-Customer support chat sentiment analysis
-
-Product feedback monitoring
+- Customer review sentiment analysis  
+- Social media emotion detection  
+- Brand reputation tracking  
+- Customer support chat sentiment analysis  
+- Product feedback monitoring  
 
 ---
 
 ## 💼 Project Highlights (Recruiter-Friendly Summary)
-Complete end-to-end ML application (not just a notebook)
 
-Real-time sentiment inference using Transformer model (DistilBERT)
-
-Scalable architecture with FastAPI + Streamlit integration
-
-Clean modular codebase: backend ↔ frontend ↔ model
-
-Demonstrates strong Python + ML + API deployment engineering capability
+- Built a complete end-to-end ML application (not just a notebook)  
+- Real-time inference using a Transformer (DistilBERT)  
+- Modular production-like architecture with FastAPI + Streamlit  
+- Seamless backend ↔ frontend ↔ model integration  
+- Demonstrates strong Python + ML + API + deployment skills  
 
 ---
 
-##👤 Author
-Cheva Kavitha
-🔗 LinkedIn: https://www.linkedin.com/in/cheva-kavitha/
-🔗 GitHub: https://github.com/chevvakavitha
-📧 Email kavithachevvakavitha@gmail.com
+## 👤 Author
 
+**Cheva Kavitha**  
+🔗 LinkedIn: https://www.linkedin.com/in/cheva-kavitha/  
+🔗 GitHub: https://github.com/chevvakavitha  
 
-
-
+If you like this project, please ⭐ star the repository — it helps a lot!
