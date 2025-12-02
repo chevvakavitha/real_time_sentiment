@@ -64,7 +64,7 @@ Copy code
 
 ## ▶ Run Locally
 
-### 🟦 Start Backend (FastAPI)
+## 🟦 Start Backend (FastAPI)
 ```bash
 uvicorn fastapi_app.main:app --reload
 ```
@@ -77,7 +77,7 @@ http://127.0.0.1:8000/redoc
 
 ---
 
-### 🟩 Start Frontend (Streamlit)
+## 🟩 Start Frontend (Streamlit)
 ```bash
 streamlit run streamlit_app/app.py
 ```
@@ -121,4 +121,5 @@ streamlit run streamlit_app/app.py
 🔗 GitHub: https://github.com/chevvakavitha  
 
 If you like this project, please ⭐ star the repository — it helps a lot!
+
 
