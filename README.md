@@ -1,4 +1,4 @@
-### 🤖 Real-Time NLP Sentiment Analysis
+# 🤖 Real-Time NLP Sentiment Analysis
 
 A **production-style ML Engineer project** that performs **real-time sentiment analysis** using a **Transformer model (DistilBERT)**.  
 The system runs a **FastAPI backend** for inference and a **Streamlit frontend** for user interaction — similar to modern industry ML systems.
@@ -116,6 +116,7 @@ Cheva Kavitha
 🔗 LinkedIn: https://www.linkedin.com/in/cheva-kavitha/
 🔗 GitHub: https://github.com/chevvakavitha
 📧 Email kavithachevvakavitha@gmail.com
+
 
 
 
