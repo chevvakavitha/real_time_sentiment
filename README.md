@@ -37,6 +37,8 @@ uvicorn fastapi_app.main:app --reload
 # API at http://127.0.0.1:8000
 # Docs at http://127.0.0.1:8000/docs
 
+---
+
 # 🤖 Real-Time NLP Sentiment Analysis
 
 A **production-style ML Engineer project** that performs **real-time sentiment analysis** using a **Transformer model (DistilBERT)**.  
@@ -147,3 +149,4 @@ Cheva Kavitha
 🔗 LinkedIn: https://www.linkedin.com/in/cheva-kavitha/
 🔗 GitHub: https://github.com/chevvakavitha
 📧 Email can be added on request
+
