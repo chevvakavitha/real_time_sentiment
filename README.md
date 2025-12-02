@@ -1,4 +1,4 @@
-# 🤖 Real-Time NLP Sentiment Analysis
+==# 🤖 Real-Time NLP Sentiment Analysis
 
 A **production-style ML Engineer project** that performs **real-time sentiment analysis** using a **Transformer model (DistilBERT)**.  
 The system runs a **FastAPI backend** for inference and a **Streamlit frontend** for user interaction — similar to modern industry ML systems.
@@ -64,44 +64,62 @@ Copy code
 
 ## ▶ Run Locally
 
-### 1️⃣ Start Backend (FastAPI)
+### 🟦 Start Backend (FastAPI)
+```bash
 uvicorn fastapi_app.main:app --reload
----
-API Documentation available locally:
-arduino
+📌 Local API documentation:
 
+arduino
+Copy code
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
+
 ---
-2️⃣ Start Frontend (Streamlit)
+
+## 🟩 Start Frontend (Streamlit)
+bash
+Copy code
 streamlit run streamlit_app/app.py
+
 ---
-🔮 Deployment Roadmap
+
+## 🚀 Deployment Roadmap
 Task	Status
 Deploy FastAPI on Render	⏳ pending
-Deploy Streamlit on Streamlit Cloud	⏳ pending
-Add CI/CD (GitHub Actions)	⏳ pending
----
-🎯 Real-World Applications
-Customer review analysis
+Deploy Streamlit Web App	⏳ pending
+Add CI/CD with GitHub Actions	⏳ pending
 
-Social media sentiment monitoring
-Brand perception tracking
-Customer support emotion detection
-Product feedback analytics
 ---
-💼 Project Highlights (for recruiters)
-Built an end-to-end ML application — not just a notebook
-Converts a transformer model into a real-time inference API
-Modular and scalable architecture for production
-Demonstrates strong Python + ML + backend development skills
+
+## 🌍 Real-World Use Cases
+Customer review sentiment analysis
+
+Social media emotion detection
+
+Brand reputation tracking
+
+Customer support chat sentiment analysis
+
+Product feedback monitoring
+
 ---
-👤 Author
+
+## 💼 Project Highlights (Recruiter-Friendly Summary)
+Complete end-to-end ML application (not just a notebook)
+
+Real-time sentiment inference using Transformer model (DistilBERT)
+
+Scalable architecture with FastAPI + Streamlit integration
+
+Clean modular codebase: backend ↔ frontend ↔ model
+
+Demonstrates strong Python + ML + API deployment engineering capability
+
+---
+
+##👤 Author
 Cheva Kavitha
 🔗 LinkedIn: https://www.linkedin.com/in/cheva-kavitha/
 🔗 GitHub: https://github.com/chevvakavitha
-📧 Email can be added on request
-
-
-
+📧 Email kavithachevvakavitha@gmail.com
 
