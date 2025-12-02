@@ -69,6 +69,7 @@ uvicorn fastapi_app.main:app --reload
 ---
 API Documentation available locally:
 arduino
+
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
 ---
@@ -83,6 +84,7 @@ Add CI/CD (GitHub Actions)	⏳ pending
 ---
 🎯 Real-World Applications
 Customer review analysis
+
 Social media sentiment monitoring
 Brand perception tracking
 Customer support emotion detection
@@ -99,6 +101,7 @@ Cheva Kavitha
 🔗 LinkedIn: https://www.linkedin.com/in/cheva-kavitha/
 🔗 GitHub: https://github.com/chevvakavitha
 📧 Email can be added on request
+
 
 
 
