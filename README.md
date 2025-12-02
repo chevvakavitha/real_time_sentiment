@@ -65,48 +65,40 @@ Copy code
 ## ▶ Run Locally
 
 ### 1️⃣ Start Backend (FastAPI)
-```bash
 uvicorn fastapi_app.main:app --reload
+---
 API Documentation available locally:
-
 arduino
-Copy code
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
+---
 2️⃣ Start Frontend (Streamlit)
-bash
-Copy code
 streamlit run streamlit_app/app.py
+---
 🔮 Deployment Roadmap
 Task	Status
 Deploy FastAPI on Render	⏳ pending
 Deploy Streamlit on Streamlit Cloud	⏳ pending
 Add CI/CD (GitHub Actions)	⏳ pending
-
+---
 🎯 Real-World Applications
 Customer review analysis
-
 Social media sentiment monitoring
-
 Brand perception tracking
-
 Customer support emotion detection
-
 Product feedback analytics
-
+---
 💼 Project Highlights (for recruiters)
 Built an end-to-end ML application — not just a notebook
-
 Converts a transformer model into a real-time inference API
-
 Modular and scalable architecture for production
-
 Demonstrates strong Python + ML + backend development skills
-
+---
 👤 Author
 Cheva Kavitha
 🔗 LinkedIn: https://www.linkedin.com/in/cheva-kavitha/
 🔗 GitHub: https://github.com/chevvakavitha
 📧 Email can be added on request
+
 
 
