@@ -1,7 +1,8 @@
-fastapi==0.115.0
-uvicorn[standard]==0.30.0
-streamlit==1.36.0
-transformers==4.41.0
+fastapi
+uvicorn[standard]
+streamlit
+transformers
 torch
-requests==2.32.3
-pytest==8.3.3
+pydantic
+requests
+
