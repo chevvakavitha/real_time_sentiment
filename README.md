@@ -62,23 +62,19 @@ Copy code
 
 ---
 
-## 🟦 Start Backend (FastAPI)
+### 🟦 Start Backend (FastAPI)
 ```bash
 uvicorn fastapi_app.main:app --reload
-📌 Local API documentation:
-
-arduino
-Copy code
+```
+## 📌 Local API documentation:
+```
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
-
----
-
+```
 ## 🟩 Start Frontend (Streamlit)
-bash
-Copy code
+```
 streamlit run streamlit_app/app.py
-
+```
 ---
 
 ## 🚀 Deployment Roadmap
@@ -120,5 +116,6 @@ Cheva Kavitha
 🔗 LinkedIn: https://www.linkedin.com/in/cheva-kavitha/
 🔗 GitHub: https://github.com/chevvakavitha
 📧 Email kavithachevvakavitha@gmail.com
+
 
 
