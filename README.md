@@ -69,7 +69,7 @@ Copy code
 uvicorn fastapi_app.main:app --reload
 ```
 
-###📌 Local API documentation:
+## 📌 Local API documentation:
 ```
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
@@ -121,3 +121,4 @@ streamlit run streamlit_app/app.py
 🔗 GitHub: https://github.com/chevvakavitha  
 
 If you like this project, please ⭐ star the repository — it helps a lot!
+
