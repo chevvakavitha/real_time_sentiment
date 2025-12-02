@@ -37,105 +37,113 @@ uvicorn fastapi_app.main:app --reload
 # API at http://127.0.0.1:8000
 # Docs at http://127.0.0.1:8000/docs
 
+# 🤖 Real-Time NLP Sentiment Analysis
+
+A **production-style ML Engineer project** that performs **real-time sentiment analysis** using a **Transformer model (DistilBERT)**.  
+The system runs a **FastAPI backend** for inference and a **Streamlit frontend** for user interaction — similar to modern industry ML systems.
+
 ---
-🚀 Real-Time NLP Sentiment Analysis (Production-Ready ML Project)
 
-A deployment-ready AI system that performs real-time sentiment analysis using a Transformer-based NLP model and exposes predictions via a FastAPI backend with a Streamlit web interface for end-users.
+## 🌟 Features
+- 🔥 DistilBERT Transformer model from Hugging Face
+- ⚡ FastAPI backend with `/predict` endpoint
+- 🖥️ Streamlit web UI for real-time prediction
+- 📦 Docker containerization
+- 📁 Modular architecture (`fastapi_app + streamlit_app`)
+- 🚀 Ready for CI/CD & deployment
 
-This project demonstrates true ML Engineer skills — beyond notebooks — including API design, model serving, Docker, CI/CD structure, and modular code.
+---
 
-✨ Key Features
+## 📺 Demo (deployments coming soon)
+| Component | Status |
+|----------|--------|
+| FastAPI Docs (Swagger) | 🔜 Link will be added after deploy |
+| Streamlit Web App | 🔜 Link will be added after deploy |
 
-🔹 Transformer model (DistilBERT — auto-loaded from Hugging Face)
-🔹 Real-time inference API (/predict endpoint using FastAPI)
-🔹 Streamlit web UI for interactive prediction
-🔹 Modular & scalable codebase (fastapi_app + streamlit_app)
-🔹 Production-ready folder structure & requirements
-🔹 Dockerfile for containerized deployment
-🔹 CI/CD-ready repository
+---
 
-🧠 System Architecture
-User ↔ Streamlit UI ↔ FastAPI API ↔ Transformer Model ↔ Prediction ↔ Response
+## 🧠 System Architecture
+User → Streamlit Web UI → FastAPI API → DistilBERT Transformer Model → Response (Sentiment + Confidence)
 
-🧪 API Documentation (FastAPI)
-Method	Endpoint	Body	Output
-POST	/predict	{"text": "I love this!"}	Sentiment + Confidence
+yaml
+Copy code
 
-🔗 Swagger UI (deployment coming soon)
-🔗 ReDoc docs (deployment coming soon)
+---
 
-🌐 Web App (Streamlit)
-
-The UI allows users to:
-
-Enter text
-
-Run sentiment inference
-
-View live confidence score
-
-🔗 Streamlit Cloud link → coming soon
-
-📦 Tech Stack
-Component	Technology
-Language	Python 3.11
-NLP Model	DistilBERT (Hugging Face)
-Backend	FastAPI + Uvicorn
-Frontend	Streamlit
-Container	Docker
-Testing	Pytest (test-ready repo structure)
-Version Control	Git + GitHub
-🗂 Folder Structure
+## 🗂 Folder Structure
 .
 ├── fastapi_app
-│   ├── main.py
-│   ├── model.py
-│   ├── schemas.py
-│   └── __init__.py
+│ ├── main.py
+│ ├── model.py
+│ ├── schemas.py
+│ └── init.py
 ├── streamlit_app
-│   └── app.py
+│ └── app.py
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
 
-▶ Run Locally
-Backend (FastAPI)
+yaml
+Copy code
+
+---
+
+## 🧰 Tech Stack
+| Layer | Technology |
+|-------|------------|
+| Language | Python 3.11 |
+| Model | DistilBERT – distilbert-base-uncased-finetuned-sst-2-english |
+| Backend | FastAPI + Uvicorn |
+| Frontend | Streamlit |
+| Containerization | Docker |
+| Testing | Pytest |
+| Version Control | Git + GitHub |
+
+---
+
+## ▶ Run Locally
+
+### 1️⃣ Start Backend (FastAPI)
+```bash
 uvicorn fastapi_app.main:app --reload
+API Documentation available locally:
 
-
-Docs available locally at:
-
+arduino
+Copy code
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
-
-Frontend (Streamlit)
+2️⃣ Start Frontend (Streamlit)
+bash
+Copy code
 streamlit run streamlit_app/app.py
+🔮 Deployment Roadmap
+Task	Status
+Deploy FastAPI on Render	⏳ pending
+Deploy Streamlit on Streamlit Cloud	⏳ pending
+Add CI/CD (GitHub Actions)	⏳ pending
 
-🚀 Deployment (Next Steps)
-Deployment	Status
-FastAPI on Render	pending
-Streamlit Web App	pending
-CI/CD (GitHub Actions)	pending
+🎯 Real-World Applications
+Customer review analysis
 
-📌 Deployment links will be added to this README once live
+Social media sentiment monitoring
 
-🎯 Use Cases
+Brand perception tracking
 
-✔ Customer feedback monitoring
-✔ Product review classification
-✔ Social media sentiment tracking
-✔ Customer support emotion detection
+Customer support emotion detection
+
+Product feedback analytics
+
+💼 Project Highlights (for recruiters)
+Built an end-to-end ML application — not just a notebook
+
+Converts a transformer model into a real-time inference API
+
+Modular and scalable architecture for production
+
+Demonstrates strong Python + ML + backend development skills
 
 👤 Author
-
 Cheva Kavitha
-📧 Email: (you can tell me later which email to add — placeholder for now)
 🔗 LinkedIn: https://www.linkedin.com/in/cheva-kavitha/
-
 🔗 GitHub: https://github.com/chevvakavitha
-
-📄 License
-
-This project is released for learning and demonstration purposes.
-
-⭐ If you like this project, don't forget to star the repo!
+📧 Email can be added on request
