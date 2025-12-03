@@ -1,7 +1,14 @@
 # 🤖 Real-Time NLP Sentiment Analysis
 
-A **production-style ML Engineer project** that performs **real-time sentiment analysis** using a **Transformer model (DistilBERT)**.  
-The system runs a **FastAPI backend** for inference and a **Streamlit frontend** for user interaction — similar to modern industry ML systems.
+A production-ready NLP sentiment analysis system using DistilBERT, FastAPI, and Streamlit — deployed end-to-end so users can test predictions in real time.
+
+---
+## 🚀 Live Demo
+
+| Component | URL |
+|----------|-----|
+| 🌐 Streamlit Web App (Frontend) | 🔗 https://real-time-sentiment.streamlit.app/ |
+| ⚙️ FastAPI Backend (Swagger Docs) | 🔗 https://real-time-sentiment.onrender.com/docs#/ |
 
 ---
 
@@ -12,14 +19,6 @@ The system runs a **FastAPI backend** for inference and a **Streamlit frontend**
 - 📦 Docker containerization
 - 📁 Modular architecture (`fastapi_app + streamlit_app`)
 - 🚀 Ready for CI/CD & deployment
-
----
-
-## 📺 Demo (deployments coming soon)
-| Component | Status |
-|----------|--------|
-| FastAPI Docs (Swagger) | 🔜 Link will be added after deploy |
-| Streamlit Web App | 🔜 Link will be added after deploy |
 
 ---
 
@@ -88,9 +87,8 @@ streamlit run streamlit_app/app.py
 
 | Task | Status |
 |------|--------|
-| Deploy FastAPI on Render | ⏳ pending |
-| Deploy Streamlit Web App | ⏳ pending |
-| Add CI/CD with GitHub Actions | ⏳ pending |
+| Deploy FastAPI on Render | ⏳ completed |
+| Deploy Streamlit Web App | ⏳ completed |
 
 ---
 
@@ -121,5 +119,6 @@ streamlit run streamlit_app/app.py
 🔗 GitHub: https://github.com/chevvakavitha  
 
 If you like this project, please ⭐ star the repository — it helps a lot!
+
 
 
