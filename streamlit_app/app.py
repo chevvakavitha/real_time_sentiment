@@ -10,7 +10,7 @@ import requests
 import streamlit as st
 
 # 👇 You can change this when backend is deployed
-DEFAULT_API_URL = "http://127.0.0.1:8000"
+DEFAULT_API_URL = "https://real-time-sentiment.onrender.com"
 API_URL = os.getenv("API_URL", DEFAULT_API_URL).rstrip("/")
 
 st.set_page_config(
@@ -95,3 +95,4 @@ if st.button("🔍 Analyze sentiment"):
             )
 else:
     st.info("Type some text and click **Analyze sentiment**.")
+
