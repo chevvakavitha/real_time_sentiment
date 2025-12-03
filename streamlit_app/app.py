@@ -55,7 +55,7 @@ if st.button("🔍 Analyze sentiment"):
                 resp = requests.post(
                     f"{API_URL}/predict",
                     json={"text": user_text},
-                    timeout=30,
+                    timeout=200,
                 )
             resp.raise_for_status()
             data = resp.json()
@@ -95,4 +95,5 @@ if st.button("🔍 Analyze sentiment"):
             )
 else:
     st.info("Type some text and click **Analyze sentiment**.")
+
 
