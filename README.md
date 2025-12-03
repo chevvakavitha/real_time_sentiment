@@ -1,7 +1,7 @@
 # 🤖 Real-Time NLP Sentiment Analysis
 
-A production-ready NLP sentiment analysis system using DistilBERT, FastAPI, and Streamlit — deployed end-to-end so users can test predictions in real time.
-
+🚀 A production-ready sentiment classification system using **FastAPI + Streamlit + DistilBERT**  
+Classifies text as **Positive / Negative** in real time with **97.2% accuracy**.
 ---
 ## 🚀 Live Demo
 
@@ -119,6 +119,7 @@ streamlit run streamlit_app/app.py
 🔗 GitHub: https://github.com/chevvakavitha  
 
 If you like this project, please ⭐ star the repository — it helps a lot!
+
 
 
 
